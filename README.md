@@ -2,6 +2,11 @@
 
 <img src="https://img.shields.io/badge/API%20Testing-Restful%20Booker-0A3C5E?style=for-the-badge&logo=postman&logoColor=white" alt="Project Banner"/>
 
+
+
+
+
+
 # 🏨 Restful Booker — API Testing Project
 
 > A structured API testing suite built with **Postman** & **Newman** for the Restful Booker platform — covering full CRUD operations with automated HTML reporting.
