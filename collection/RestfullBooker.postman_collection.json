@@ -1,7 +1,7 @@
 {
   "info": {
     "_postman_id": "34b2d7f1-8235-426e-a22a-2f71a614ed0b",
-    "name": "New Collection",
+    "name": "RestfullBooker",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "_exporter_id": "40945316"
   },
@@ -27,9 +27,16 @@
           }
         },
         "url": {
-          "raw": "{{BaseUrl}}/auth",
-          "host": ["{{BaseUrl}}"],
-          "path": ["auth"]
+          "raw": "https://restful-booker.herokuapp.com/auth",
+          "protocol": "https",
+          "host": [
+            "restful-booker",
+            "herokuapp",
+            "com"
+          ],
+          "path": [
+            "auth"
+          ]
         }
       },
       "response": []
@@ -40,9 +47,16 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{BaseUrl}}/booking",
-          "host": ["{{BaseUrl}}"],
-          "path": ["booking"]
+          "raw": "https://restful-booker.herokuapp.com/booking",
+          "protocol": "https",
+          "host": [
+            "restful-booker",
+            "herokuapp",
+            "com"
+          ],
+          "path": [
+            "booking"
+          ]
         }
       },
       "response": []
@@ -53,9 +67,17 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{BaseUrl}}/booking/1",
-          "host": ["{{BaseUrl}}"],
-          "path": ["booking", "1"]
+          "raw": "https://restful-booker.herokuapp.com/booking/1",
+          "protocol": "https",
+          "host": [
+            "restful-booker",
+            "herokuapp",
+            "com"
+          ],
+          "path": [
+            "booking",
+            "1"
+          ]
         }
       },
       "response": []
@@ -81,9 +103,16 @@
           }
         },
         "url": {
-          "raw": "{{BaseUrl}}/booking",
-          "host": ["{{BaseUrl}}"],
-          "path": ["booking"]
+          "raw": "https://restful-booker.herokuapp.com/booking",
+          "protocol": "https",
+          "host": [
+            "restful-booker",
+            "herokuapp",
+            "com"
+          ],
+          "path": [
+            "booking"
+          ]
         }
       },
       "response": []
@@ -122,9 +151,17 @@
           }
         },
         "url": {
-          "raw": "{{BaseUrl}}/booking/1828",
-          "host": ["{{BaseUrl}}"],
-          "path": ["booking", "1828"]
+          "raw": "https://restful-booker.herokuapp.com/booking/1828",
+          "protocol": "https",
+          "host": [
+            "restful-booker",
+            "herokuapp",
+            "com"
+          ],
+          "path": [
+            "booking",
+            "1828"
+          ]
         }
       },
       "response": []
@@ -163,9 +200,16 @@
           }
         },
         "url": {
-          "raw": "{{BaseUrl}}/booking/1828",
-          "host": ["{{BaseUrl}}"],
-          "path": ["booking", "1828"]
+          "raw": "https://restful-booker.herokuapp.combooking/1828",
+          "protocol": "https",
+          "host": [
+            "restful-booker",
+            "herokuapp",
+            "combooking"
+          ],
+          "path": [
+            "1828"
+          ]
         }
       },
       "response": []
@@ -179,12 +223,48 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "{{BaseUrl}}/ping",
-          "host": ["{{BaseUrl}}"],
-          "path": ["ping"]
+          "raw": "https://restful-booker.herokuapp.com/ping",
+          "protocol": "https",
+          "host": [
+            "restful-booker",
+            "herokuapp",
+            "com"
+          ],
+          "path": [
+            "ping"
+          ]
         }
       },
       "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "value": ""
     }
   ]
 }
