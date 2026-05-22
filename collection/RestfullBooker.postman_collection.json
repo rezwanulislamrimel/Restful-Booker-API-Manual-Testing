@@ -200,14 +200,15 @@
           }
         },
         "url": {
-          "raw": "https://restful-booker.herokuapp.combooking/1828",
+          "raw": "https://restful-booker.herokuapp.com/booking/1828",
           "protocol": "https",
           "host": [
             "restful-booker",
             "herokuapp",
-            "combooking"
+            "com"
           ],
           "path": [
+            "booking",
             "1828"
           ]
         }
