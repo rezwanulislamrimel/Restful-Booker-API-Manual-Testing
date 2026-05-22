@@ -37,4 +37,12 @@ This project is created for **practicing real-world API testing and DevOps (CI/C
 
 ---
 
-## 📁 Project Structure
+## 👤 Author
+
+<div align="center">
+
+**Rezwanul Rimel**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rezwanulrimel/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rezwanul.rimel97@gmail.com)
+
