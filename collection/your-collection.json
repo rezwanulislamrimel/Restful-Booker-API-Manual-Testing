@@ -1,3 +1,5 @@
+// this is collecton json
+
 {
   "info": {
     "_postman_id": "34b2d7f1-8235-426e-a22a-2f71a614ed0b",
@@ -28,12 +30,8 @@
         },
         "url": {
           "raw": "{{BaseUrl}}/auth",
-          "host": [
-            "{{BaseUrl}}"
-          ],
-          "path": [
-            "auth"
-          ]
+          "host": ["{{BaseUrl}}"],
+          "path": ["auth"]
         }
       },
       "response": []
@@ -45,12 +43,8 @@
         "header": [],
         "url": {
           "raw": "{{BaseUrl}}/booking",
-          "host": [
-            "{{BaseUrl}}"
-          ],
-          "path": [
-            "booking"
-          ]
+          "host": ["{{BaseUrl}}"],
+          "path": ["booking"]
         }
       },
       "response": []
@@ -62,13 +56,8 @@
         "header": [],
         "url": {
           "raw": "{{BaseUrl}}/booking/1",
-          "host": [
-            "{{BaseUrl}}"
-          ],
-          "path": [
-            "booking",
-            "1"
-          ]
+          "host": ["{{BaseUrl}}"],
+          "path": ["booking", "1"]
         }
       },
       "response": []
@@ -95,12 +84,8 @@
         },
         "url": {
           "raw": "{{BaseUrl}}/booking",
-          "host": [
-            "{{BaseUrl}}"
-          ],
-          "path": [
-            "booking"
-          ]
+          "host": ["{{BaseUrl}}"],
+          "path": ["booking"]
         }
       },
       "response": []
@@ -140,13 +125,8 @@
         },
         "url": {
           "raw": "{{BaseUrl}}/booking/1828",
-          "host": [
-            "{{BaseUrl}}"
-          ],
-          "path": [
-            "booking",
-            "1828"
-          ]
+          "host": ["{{BaseUrl}}"],
+          "path": ["booking", "1828"]
         }
       },
       "response": []
@@ -186,13 +166,8 @@
         },
         "url": {
           "raw": "{{BaseUrl}}/booking/1828",
-          "host": [
-            "{{BaseUrl}}"
-          ],
-          "path": [
-            "booking",
-            "1828"
-          ]
+          "host": ["{{BaseUrl}}"],
+          "path": ["booking", "1828"]
         }
       },
       "response": []
@@ -207,12 +182,8 @@
         "header": [],
         "url": {
           "raw": "{{BaseUrl}}/ping",
-          "host": [
-            "{{BaseUrl}}"
-          ],
-          "path": [
-            "ping"
-          ]
+          "host": ["{{BaseUrl}}"],
+          "path": ["ping"]
         }
       },
       "response": []
